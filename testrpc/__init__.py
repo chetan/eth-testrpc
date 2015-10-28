@@ -1,5 +1,13 @@
-# __version__ is for deploying with seed.
-# VERSION is to keep the rest of the app DRY.
+# Get the version from the file if the file exists.
+# If the file doesn't exist, that means we're running from pypi.
 
-__version__ = '0.1.18'
-VERSION = __version__
+import pkg_resources
+import os
+
+file = os.path.join(os.path.dirname(__file__), "../VERSION")
+if os.path.isfile(file) is True:
+    version = open(file).read().strip()
+else:
+    version = pkg_resources.get_distribution("eth-testrpc").version
+
+VERSION = version

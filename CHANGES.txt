@@ -1,5 +1,86 @@
 ----
 
+Version 0.1.27, Sat 24 Oct 2015
+================================
+
+6b350042b6	Finally something that'll probably work. (Tim Coulter)
+
+
+Version 0.1.26, Sat 24 Oct 2015
+================================
+
+fa538f7a05	Perhaps seed still updates this value, and it was all my fault. I'm going mad, so I wouldn't be surprised. (Tim Coulter)
+
+
+Version 0.1.25, Sat 24 Oct 2015
+================================
+
+efa09eb87e	Maybe this will work? (Tim Coulter)
+
+
+Version 0.1.24, Sat 24 Oct 2015
+================================
+
+8ef05254ec	Trying this yet again, with no way to test it but by pushing to pypi... (Tim Coulter)
+
+
+Version 0.1.23, Sat 24 Oct 2015
+================================
+
+54906a9ed5	Trying this relative path thing again. Python makes me eel like I'm bashing my head against a wall. (Tim Coulter)
+
+
+Version 0.1.22, Sat 24 Oct 2015
+================================
+
+459611ceca	Fix path to VERSION file. (Tim Coulter)
+
+
+Version 0.1.21, Sat 24 Oct 2015
+================================
+
+0c6df877c0	Apparently this needs to be there? (Tim Coulter)
+1fde1a331c	Use new version of seed. (Tim Coulter)
+
+
+Version 0.1.21, Sat 24 Oct 2015
+================================
+
+1fde1a331c	Use new version of seed. (Tim Coulter)
+
+
+Version 0.1.21, Sat 24 Oct 2015
+================================
+
+1fde1a331c	Use new version of seed. (Tim Coulter)
+
+
+Version 0.1.20, Sat 24 Oct 2015
+================================
+
+
+
+Version 0.1.19, Sat 24 Oct 2015
+================================
+
+
+
+Version 0.1.18, Sat 24 Oct 2015
+================================
+
+3112ff7d05	Support logs result in getTransactionReceipt (Tim Coulter)
+926e534a30	Dependency on .utils was failing for me. (Tim Coulter)
+f5d4d65706	Update README to show we support eth_newFilter now. (Ryan Casey)
+7edabfc97f	Update print statement to be cross-Python compatible. (Ryan Casey)
+aad0c44b01	Remove unnecessary and confusing manual listener management. (Ryan Casey)
+1ff362b5fa	Version bump to 0.1.17 and update changelog. (Ryan Casey)
+33a99c63c7	Implement filters. (Ryan Casey)
+31f95a5630	Switch to encode_hex and decode_hex, as they are Python 3 compatible. (Ryan Casey)
+244eaafc29	Fix getBlock failure caused by passing raw byte strings to jsonrpclib. (Ryan Casey)
+f0fa961fa4	Switch to future's print statement as a first step toward Python 2 and Python 3 cross-compatibility. (Ryan Casey)
+5fe7c3d248	Move server-specific code to __main__.py (Ryan Casey)
+
+
 Version 0.1.18, Sun 13 Sep 2015
 ===============================
 
